@@ -1,0 +1,12 @@
+com/SpringCrud/SpringAngular/repository/FoodItemRepository.class
+com/SpringCrud/SpringAngular/model/FoodItem.class
+com/SpringCrud/SpringAngular/config/CorsConfig.class
+com/SpringCrud/SpringAngular/model/Order.class
+com/SpringCrud/SpringAngular/controller/FoodItemController.class
+com/SpringCrud/SpringAngular/SpringAngularApplication.class
+com/SpringCrud/SpringAngular/controller/AdminFoodController.class
+com/SpringCrud/SpringAngular/config/CorsConfig$1.class
+com/SpringCrud/SpringAngular/controller/OrderController.class
+com/SpringCrud/SpringAngular/repository/OrderRepository.class
+com/SpringCrud/SpringAngular/dto/OrderRequest.class
+com/SpringCrud/SpringAngular/model/package-info.class

@@ -1,0 +1,11 @@
+/mnt/c/Users/DELL/SpringBootsApplication/src/main/java/com/SpringCrud/SpringAngular/SpringAngularApplication.java
+/mnt/c/Users/DELL/SpringBootsApplication/src/main/java/com/SpringCrud/SpringAngular/config/CorsConfig.java
+/mnt/c/Users/DELL/SpringBootsApplication/src/main/java/com/SpringCrud/SpringAngular/controller/FoodItemController.java
+/mnt/c/Users/DELL/SpringBootsApplication/src/main/java/com/SpringCrud/SpringAngular/controller/OrderController.java
+/mnt/c/Users/DELL/SpringBootsApplication/src/main/java/com/SpringCrud/SpringAngular/dto/OrderRequest.java
+/mnt/c/Users/DELL/SpringBootsApplication/src/main/java/com/SpringCrud/SpringAngular/model/AdminFoodController.java
+/mnt/c/Users/DELL/SpringBootsApplication/src/main/java/com/SpringCrud/SpringAngular/model/FoodItem.java
+/mnt/c/Users/DELL/SpringBootsApplication/src/main/java/com/SpringCrud/SpringAngular/model/Order.java
+/mnt/c/Users/DELL/SpringBootsApplication/src/main/java/com/SpringCrud/SpringAngular/model/package-info.java
+/mnt/c/Users/DELL/SpringBootsApplication/src/main/java/com/SpringCrud/SpringAngular/repository/FoodItemRepository.java
+/mnt/c/Users/DELL/SpringBootsApplication/src/main/java/com/SpringCrud/SpringAngular/repository/OrderRepository.java
