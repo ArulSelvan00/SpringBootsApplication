@@ -13,7 +13,7 @@ public class EmailService {
 
     public void sendOrderEmail(String toEmail, String subject, String body) {
         SimpleMailMessage message = new SimpleMailMessage();
-        message.setFrom("arulkarthiksasi@gmail.com"); // Change this to your email
+        message.setFrom("arulselvanofficial5@gmail.com"); // Change this to your email
         message.setTo(toEmail);
         message.setSubject(subject);
         message.setText(body);
