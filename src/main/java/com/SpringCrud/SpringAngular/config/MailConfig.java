@@ -1,4 +1,5 @@
 package com.SpringCrud.SpringAngular.config;
+
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.mail.javamail.JavaMailSender;
@@ -12,11 +13,13 @@ public class MailConfig {
     @Bean
     public JavaMailSender getJavaMailSender() {
         JavaMailSenderImpl mailSender = new JavaMailSenderImpl();
-        mailSender.setHost("smtp.gmail.com");
+
+        mailSender.setHost("smtp.sendgrid.net");
         mailSender.setPort(587);
 
-        mailSender.setUsername("arulselvanofficial5@gmail.com"); // ✅ Replace with your Gmail
-        mailSender.setPassword("yyja fzgj nank wwsu");        // ✅ Replace with Gmail App Password
+        // ✅ Important: For SendGrid SMTP
+        mailSender.setUsername("apikey"); // This must be literally 'apikey'
+        mailSender.setPassword("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"); // Replace with your actual SendGrid API key
 
         Properties props = mailSender.getJavaMailProperties();
         props.put("mail.transport.protocol", "smtp");
