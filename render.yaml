@@ -11,7 +11,7 @@ services:
       - key: SPRING_DATASOURCE_USERNAME
         value: arul1234
       - key: SPRING_DATASOURCE_PASSWORD
-        value: Arul@2005
+        value: Arul2005
       - key: SPRING_JPA_HIBERNATE_DDL_AUTO
         value: update
       - key: SPRING_JPA_SHOW_SQL
