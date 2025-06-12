@@ -2,17 +2,12 @@ services:
   - type: web
     name: springboot-backend
     env: java
-    plan: free
     buildCommand: "./mvnw clean install"
     startCommand: "java -jar target/*.jar"
     envVars:
       - key: SPRING_DATASOURCE_URL
-        value: jdbc:mysql://db4free.net:3306/food_db01
+        value: jdbc:mysql://sql12.freesqldatabase.com:3306/sql12784322
       - key: SPRING_DATASOURCE_USERNAME
-        value: arul1234
+        value: sql12784322
       - key: SPRING_DATASOURCE_PASSWORD
-        value: Arul2005
-      - key: SPRING_JPA_HIBERNATE_DDL_AUTO
-        value: update
-      - key: SPRING_JPA_SHOW_SQL
-        value: true
+        value: PfK3JJxBaG
