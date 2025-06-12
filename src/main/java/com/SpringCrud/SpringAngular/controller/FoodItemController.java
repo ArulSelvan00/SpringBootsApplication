@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Optional;
 
-@CrossOrigin(origins = "https://strong-praline-d86c79.netlify.app")
+@CrossOrigin(origins ="https://strong-praline-d86c79.netlify.app")
 @RestController
 @RequestMapping("/api/food_item")
 public class FoodItemController {
