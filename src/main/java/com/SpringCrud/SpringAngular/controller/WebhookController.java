@@ -1,4 +1,4 @@
-package com.yourproject.controller;
+package com.SpringCrud.SpringAngular.service;
 
 import org.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
