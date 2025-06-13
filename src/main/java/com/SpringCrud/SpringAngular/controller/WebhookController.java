@@ -31,7 +31,7 @@ public class WebhookController {
             String paymentId = entity.getString("id");
 
             emailService.sendInvoice(email, paymentId, name);
-            emailService.sendInvoice("arulkarthiksasi@gmail.com", paymentId, name); // Replace with your email
+            emailService.sendInvoice("arulselvanofficial5@gmail.com", paymentId, name); // Replace with your email
 
             return ResponseEntity.ok("Invoice sent.");
         } catch (Exception e) {
